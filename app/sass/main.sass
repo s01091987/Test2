@@ -1,0 +1,289 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+.clearfix:before, .clearfix:after
+ content: " "
+ display: table
+
+.clearfix:after
+ clear: both
+
+.left
+ float: left
+
+.right
+ float: right
+
+#wrapper
+ position: relative
+
+.container
+ max-width: 1170px
+ margin: 0 auto
+ padding: 0 15px
+
+#header
+ min-height: 100px
+ z-index: 9999
+ width: 100%
+ a#pull
+  text-align: center
+
+.clone
+ position: fixed
+ top: 0
+ width: 100%
+ background: #fff
+ border-bottom: 1px solid #ccc
+
+.logo
+ width: 50%
+ padding-top: 23px
+ a
+  text-decoration: none
+ h1
+  font-size: 48px
+  font-family: "Lobster"
+  color: #44c0c2
+  display: inline-block
+
+.menu
+ width: 50%
+ nav
+  a
+   font-size: 15px
+   text-decoration: none
+   font-family: "OpenSansRegular", Verdana, Tahoma
+   color: #484c55
+   display: inline-block
+   padding: 41px 23px
+   &:last-child
+
+   &:hover
+    color: #9cdee0
+    background-color: #f8f9fb
+    border-bottom: 3px solid #49cbcd
+
+#slider
+ text-align: center
+ width: 100%
+ padding: 145px 0
+ background: url(../img/slider.jpg) no-repeat center center
+ background-size: cover
+ h1
+  font-family: "OpenSansSemiBold"
+  font-size: 63px
+  color: #fff
+  margin-bottom: 45px
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.16)
+ h2
+  font-family: "OpenSansRegular"
+  color: #fff
+  font-size: 23px
+  line-height: 33px
+  margin-bottom: 60px
+ a.btn
+  font-family: "OpenSansSemiBold"
+  font-size: 26px
+  color: #fff
+  text-decoration: none
+  border: 3px solid #fff
+  padding: 22px 40px
+  display: inline-block
+  border-radius: 5px
+
+#team
+ padding: 100px 0
+ font-family: "OpenSansRegular"
+ text-align: center
+ h1
+  color: #4e525d
+  font-size: 42px
+  margin-bottom: 140px
+ .ourTeam
+  margin: 0
+  padding: 0
+  .innerBlock
+   width: 25%
+   float: left
+   h3
+    font-size: 22px
+    color: #4e525d
+    margin-bottom: 12px
+   p.desc
+    font-size: 14px
+    text-align: center
+    margin-bottom: 32px
+   .circle
+    margin-bottom: 70px
+    img
+     border-radius: 50%
+   p
+    padding: 0 23px
+    font-size: 14px
+    line-height: 28px
+
+#tarifs
+ font-family: "OpenSansRegular"
+ padding: 120px 0 100px 0
+ background: #f1f1f1
+ text-align: center
+ .box
+  width: 31%
+  float: left
+  padding: 0 1%
+  ul
+   border: 1px solid #e4e4e4
+   li
+    border-bottom: 1px solid #e4e4e4
+    padding: 25px 0
+    background: #fff
+   li.basic
+    background: #485460
+    color: #fff
+    font-size: 26px
+    padding: 25px 0
+   li.price
+    font-size: 20px
+    padding: 25px 0
+    background: #f8f9fb
+    color: #59636d
+   li.byNow
+    background: #f8f9fb
+    border-bottom: none
+    padding: 40px 0    
+   a.btn
+    text-decoration: none
+    font-family: "OpenSansSemiBold"
+    font-size: 17px
+    color: #fff
+    background: #788492
+    padding: 10px 50px
+    border-radius: 5px
+
+#contacts
+ font-family: "OpenSansRegular"
+ padding: 100px 0
+ background: url(../img/contacts.jpg) no-repeat center center
+ background-size: cover
+ h1
+  font-family: "OpenSansRegular"
+  color: #fff
+  font-size: 42px
+  text-align: center
+  margin-bottom: 115px
+ p.desc
+  font-size: 14px
+  color: #828282
+  line-height: 24px
+  padding-right: 100px
+  margin-bottom: 40px
+ p.posted
+  font-family: "MyriadPro"
+  color: #bface2
+  font-size: 14px
+  line-height: 28px
+ .social
+  width: 50%
+  h4
+   font-size: 24px
+   color: #fff
+   margin-bottom: 15px
+  .social-icons
+   margin-bottom: 20px
+   a
+    display: inline-block
+    width: 42px
+    height: 42px
+    background: url(../img/social.png) no-repeat
+    margin-right: 13px
+   .ic-facebook
+    background-position: 0 0
+   .ic-twitter
+    background-position: -42px 0
+   .ic-google
+    background-position: -84px 0
+ .form
+  width: 50%
+  input.name
+   width: 42%
+   padding: 0 2%
+   height: 45px
+   border-radius: 5px
+   border: none
+   font-size: 16px
+   outline: none
+  input.email
+   width: 42%
+   height: 45px
+   border-radius: 5px
+   border: none
+   font-size: 16px
+   padding-left: 2%
+   outline: none
+  textarea
+   width: 97%
+   margin: 30px 0
+   border-radius: 5px
+   font-size: 16px
+   font-family: "OpenSansRegular"
+   outline: none
+   resize: none
+   padding-left: 2%
+   padding-top: 10px
+   height: 180px
+  input[type="submit"]
+   padding: 15px 65px 15px 55px
+   float: right
+   background: #49cbcd
+   border: none
+   outline: none
+   border-radius: 5px
+   color: #fff
+   font-size: 22px
+
+
+
+
+@import "fonts"
+@import "media"
